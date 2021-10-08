@@ -54,3 +54,8 @@
   text-align: center;
   color: #616e7c;
 }
+.app-container {
+ 
+  background-image: linear-gradient(to right,#ffffff, #ffeeee, #ffc0bb);
+  height: 100vh;
+}
