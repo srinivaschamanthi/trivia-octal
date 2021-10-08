@@ -53,7 +53,7 @@ export default class TriviaGame extends Component {
                 <button onClick={this.search}>Get Random Question</button>
 
                 <h4 className="question">{this.state.question} </h4>
-                <input type="text" required placeholder="Enter your answer" value={this.state.userAnswer} onChange={this.onChangeAnswer}/>
+                <input type="text" required="required" placeholder="Enter your answer" value={this.state.userAnswer} onChange={this.onChangeAnswer}/>
                 <br/>
                 <button onClick={this.submit}>Submit</button>
                 <h1>{this.state.result}</h1>
